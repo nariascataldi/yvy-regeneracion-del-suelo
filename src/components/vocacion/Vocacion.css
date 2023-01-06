@@ -1,0 +1,29 @@
+.buttons {
+  width: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container p {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.navegacion {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+@media (max-width: 991px) {
+  .container p {
+    font-size: 1.5em;
+  }
+  .buttons {
+    width: 70%;
+  }
+}

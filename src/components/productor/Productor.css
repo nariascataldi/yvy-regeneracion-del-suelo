@@ -1,0 +1,57 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.data-container {
+  width: 80%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+}
+
+.checklist {
+  font-size: 1.1em;
+  color: #13060d;
+}
+
+.checklist input {
+  width: 20px;
+  height: 20px;
+}
+
+.container h3 {
+  font-size: 2.5em;
+  font-weight: 800;
+  color: #13060d;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
+.checklist-item label {
+  margin-left: 20px;
+}
+
+.checklist-item {
+  font-size: 1.5em;
+}
+
+.container p {
+  font-size: 1.5em;
+}
+
+@media (max-width: 991px) {
+  .container h3 {
+    font-size: 2em;
+  }
+  .checklist {
+    font-size: 0.8em;
+  }
+}
