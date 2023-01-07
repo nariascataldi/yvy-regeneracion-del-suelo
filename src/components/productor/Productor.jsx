@@ -1,6 +1,8 @@
 import React from "react";
 import "./Productor.css";
 import { useNavigate } from "react-router-dom";
+import atras from "../../assets/atras.png";
+import adelante from "../../assets/adelante.png";
 
 const Productor = () => {
   const navigate = useNavigate();
@@ -12,6 +14,15 @@ const Productor = () => {
   return (
     <div className="container">
       <h3>Que tipo de productor eres?</h3>
+      <div className="navegacion">
+        <img src={atras} className="btn_nav" onClick={() => navigate("/")} />
+
+        <img
+          src={adelante}
+          className="btn_nav"
+          onClick={() => navigate("/vocacion")}
+        />
+      </div>
 
       <div className="data-container">
         <div className="checklist">

@@ -33,6 +33,7 @@
   color: #13060d;
   line-height: 1em;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .checklist-item label {
