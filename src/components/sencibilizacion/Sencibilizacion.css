@@ -180,7 +180,7 @@ header .logo {
   margin-right: 10px;
 }
 
-@media (max-width: 991px) {
+@media  (max-width: 991px) {
   .showcase,
   .showcase header {
     padding: 40px;
@@ -192,3 +192,16 @@ header .logo {
     font-size: 2em;
   }
 }
+/* Pantallas de menos de 576px de ancho */
+/* @media screen and (max-width: 576px) {
+  .Titulo {
+    font-size: 2.3rem;
+  }
+  
+  .Subtitulo {
+    font-size: 2rem;
+  }
+  .paSking{
+    font-size: 0.8rem;
+  }
+} */
