@@ -5,7 +5,7 @@ export const Roboto = () => {
   const [roboto, setRoboto] = useState(true);
   return (
     <>
-      <button onClick={() => setRoboto(!roboto)} > 
+      <button className='bttnPrimario' onClick={() => setRoboto(!roboto)} > 
       {roboto ?
         <div className='roboto'>
           <p>Roboto</p>

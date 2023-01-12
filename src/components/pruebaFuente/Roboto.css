@@ -1,3 +1,22 @@
+.bttnPrimario {
+  width: 120px;
+  height: 30px;
+  border-radius: 12px;
+  border-color: #66CBC6;
+  background: linear-gradient(to right, #66cb94, #66CBC6);
+}
+
+.bttnPrimario p {
+  color: aliceblue;
+  font-weight: 800;
+  letter-spacing: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
 html {
   font-size: 100%;
 }
@@ -16,7 +35,11 @@ html {
   margin-bottom: 1rem;
 }
 
-.roboto h1,.roboto h2,.roboto h3,.roboto h4,.roboto h5 {
+.roboto h1,
+.roboto h2,
+.roboto h3,
+.roboto h4,
+.roboto h5 {
   margin: 3rem 0 1.38rem;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -62,7 +85,11 @@ html {
   margin-bottom: 1rem;
 }
 
-.open h1,.open h2,.open h3,.open h4,.open h5 {
+.open h1,
+.open h2,
+.open h3,
+.open h4,
+.open h5 {
   margin: 3rem 0 1.38rem;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
