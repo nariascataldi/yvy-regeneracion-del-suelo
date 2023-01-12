@@ -1,0 +1,96 @@
+html {
+  font-size: 100%;
+}
+
+/*16px*/
+
+.roboto body {
+  background: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #000000;
+}
+
+.roboto p {
+  margin-bottom: 1rem;
+}
+
+.roboto h1,.roboto h2,.roboto h3,.roboto h4,.roboto h5 {
+  margin: 3rem 0 1.38rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+.roboto h1 {
+  margin-top: 0;
+  font-size: 3.052rem;
+}
+
+.roboto h2 {
+  font-size: 2.441rem;
+}
+
+.roboto h3 {
+  font-size: 1.953rem;
+}
+
+.roboto h4 {
+  font-size: 1.563rem;
+}
+
+.roboto h5 {
+  font-size: 1.25rem;
+}
+
+.roboto small,
+.text_small {
+  font-size: 0.8rem;
+}
+
+/* ---------------------------- */
+.open body {
+  background: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #000000;
+}
+
+.open p {
+  margin-bottom: 1rem;
+}
+
+.open h1,.open h2,.open h3,.open h4,.open h5 {
+  margin: 3rem 0 1.38rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+.open h1 {
+  margin-top: 0;
+  font-size: 3.052rem;
+}
+
+.open h2 {
+  font-size: 2.441rem;
+}
+
+.open h3 {
+  font-size: 1.953rem;
+}
+
+.open h4 {
+  font-size: 1.563rem;
+}
+
+.open h5 {
+  font-size: 1.25rem;
+}
+
+.open small,
+.text_small {
+  font-size: 0.8rem;
+}

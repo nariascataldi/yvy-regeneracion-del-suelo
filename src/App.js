@@ -8,6 +8,7 @@ import Infiltracion from "./components/indicadores/Infiltracion";
 import Agregados from "./components/indicadores/Agregados";
 import Pendientes from "./components/indicadores/Pendientes";
 import Cobertura from "./components/cobertura/Cobertura";
+import { Roboto } from "./components/pruebaFuente/Roboto";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/agregados" element={<Agregados />} />
         <Route path="/pendientes" element={<Pendientes />} />
         <Route path="/cobertura" element={<Cobertura />} />
+        <Route path="/roboto" element={<Roboto />} />
       </Routes>
     </BrowserRouter>
   );
