@@ -9,11 +9,13 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+
 header .logo {
   color: #fff;
   text-transform: uppercase;
   cursor: pointer;
 }
+
 .toggle {
   position: relative;
   width: 60px;
@@ -24,6 +26,7 @@ header .logo {
   background-position: center;
   cursor: pointer;
 }
+
 .toggle.active {
   background: url(https://i.ibb.co/rt3HybH/close.png);
   background-repeat: no-repeat;
@@ -31,6 +34,7 @@ header .logo {
   background-position: center;
   cursor: pointer;
 }
+
 .showcase {
   position: absolute;
   right: 0;
@@ -44,6 +48,7 @@ header .logo {
   transition: 0.5s;
   z-index: 2;
 }
+
 .showcase.active {
   right: 300px;
 }
@@ -57,6 +62,7 @@ header .logo {
   object-fit: cover;
   opacity: 0.5;
 }
+
 .overlay {
   position: absolute;
   top: 0;
@@ -66,6 +72,7 @@ header .logo {
   background: #66cb94;
   mix-blend-mode: overlay;
 }
+
 .text {
   position: relative;
   z-index: 10;
@@ -78,6 +85,7 @@ header .logo {
   line-height: 1em;
   text-transform: uppercase;
 }
+
 .text h3 {
   font-size: 4em;
   font-weight: 700;
@@ -85,6 +93,7 @@ header .logo {
   line-height: 1em;
   text-transform: uppercase;
 }
+
 .text p {
   font-size: 1.1em;
   color: #fff;
@@ -92,6 +101,7 @@ header .logo {
   font-weight: 400;
   max-width: 700px;
 }
+
 .btn_primary {
   display: inline-block;
   font-size: 1em;
@@ -107,6 +117,7 @@ header .logo {
   border-radius: 20px;
   cursor: pointer;
 }
+
 .btn_primary:hover {
   letter-spacing: 6px;
 }
@@ -126,6 +137,7 @@ header .logo {
   border-radius: 20px;
   cursor: pointer;
 }
+
 .btn_no:hover {
   letter-spacing: 6px;
 }
@@ -146,6 +158,7 @@ header .logo {
   margin-right: 30px;
   cursor: pointer;
 }
+
 .btn_white:hover {
   letter-spacing: 6px;
 }
@@ -160,17 +173,21 @@ header .logo {
   justify-content: center;
   align-items: center;
 }
+
 .menu ul {
   position: relative;
 }
+
 .menu ul li {
   list-style: none;
 }
+
 .menu ul li a {
   text-decoration: none;
   font-size: 18px;
   color: #13060d;
 }
+
 .menu ul li a:hover {
   color: #66cb94;
 }
@@ -180,28 +197,56 @@ header .logo {
   margin-right: 10px;
 }
 
-@media  (max-width: 991px) {
+@media (max-width: 991px) {
+
   .showcase,
   .showcase header {
     padding: 40px;
   }
+
   .text h2 {
     font-size: 3em;
   }
+
   .text h3 {
     font-size: 2em;
   }
 }
+
+/* Pantallas de menos de 768px de ancho */
+@media screen and (max-width: 768px) {
+  .showcase header {
+    padding: 10px;
+  }
+
+  .text h2 {
+    font-size: 3em;
+  }
+
+  .text h3 {
+    font-size: 2em;
+  }
+}
+
 /* Pantallas de menos de 576px de ancho */
-/* @media screen and (max-width: 576px) {
-  .Titulo {
-    font-size: 2.3rem;
+@media screen and (max-width: 576px) {
+  .showcase header {
+    padding: 10px;
   }
-  
-  .Subtitulo {
-    font-size: 2rem;
+
+  .showcase .logo {
+    width: 56px;
   }
-  .paSking{
-    font-size: 0.8rem;
+
+  /* ¿por qué el suelo */
+  .text h2 {
+    font-size: 30px;
+    font-family: 'Open sans', roboto, verdana, Geneva, Tahoma, sans-serif;
+
   }
-} */
+
+  /* Asombroso */
+  .text h3 {
+    font-size: 2em;
+  }
+}
