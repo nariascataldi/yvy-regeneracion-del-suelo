@@ -9,6 +9,8 @@ import Agregados from "./components/indicadores/Agregados";
 import Pendientes from "./components/indicadores/Pendientes";
 import Cobertura from "./components/cobertura/Cobertura";
 import { Roboto } from "./components/pruebaFuente/Roboto";
+// Fuentes ROBOTO y OPEN SANS en archivo
+import './components/fonts/fonts.css';
 
 function App() {
   return (

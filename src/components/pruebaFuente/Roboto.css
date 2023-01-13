@@ -7,14 +7,13 @@
 }
 
 .bttnPrimario p {
+  height: 26px;
   color: aliceblue;
   font-weight: 800;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
-  flex-wrap: nowrap;
 }
 
 html {

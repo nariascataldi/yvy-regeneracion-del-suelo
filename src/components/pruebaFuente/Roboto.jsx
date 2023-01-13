@@ -17,20 +17,20 @@ export const Roboto = () => {
       </button>
       {roboto ?
         <div className='roboto'>
-          <h1>Playing with fonts is fun</h1>
-          <h2>Playing with fonts is fun</h2>
-          <h3>Playing with fonts is fun</h3>
-          <h4>Playing with fonts is fun</h4>
-          <h5>Playing with fonts is fun</h5>
-          <p>Playing with fonts is fun</p>
+          <h1>The quick brown fox jumps over the lazy dog</h1>
+          <h2>The quick brown fox jumps over the lazy dog</h2>
+          <h3>The quick brown fox jumps over the lazy dog</h3>
+          <h4>The quick brown fox jumps over the lazy dog</h4>
+          <h5>The quick brown fox jumps over the lazy dog</h5>
+          <p>The quick brown fox jumps over the lazy dog</p>
         </div> :
         <div className='open'>
-          <h1>Playing with fonts is fun</h1>
-          <h2>Playing with fonts is fun</h2>
-          <h3>Playing with fonts is fun</h3>
-          <h4>Playing with fonts is fun</h4>
-          <h5>Playing with fonts is fun</h5>
-          <p>Playing with fonts is fun</p>
+          <h1>The quick brown fox jumps over the lazy dog</h1>
+          <h2>The quick brown fox jumps over the lazy dog</h2>
+          <h3>The quick brown fox jumps over the lazy dog</h3>
+          <h4>The quick brown fox jumps over the lazy dog</h4>
+          <h5>The quick brown fox jumps over the lazy dog</h5>
+          <p>The quick brown fox jumps over the lazy dog</p>
         </div>
       }
     </>
